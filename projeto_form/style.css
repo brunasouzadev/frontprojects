@@ -1,0 +1,104 @@
+html {
+  background: url("./img/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg") no-repeat
+    center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.navegacao {
+  padding: 20px;
+}
+
+.config-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  max-width: 350px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  margin: 40px;
+}
+
+.checkout-method {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+img {
+  max-width: 30px;
+  height: auto;
+}
+
+.button {
+  background-color: #23232e;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.button:is(:hover, :focus) {
+  background-color: #343445;
+  color: #ffffff;
+}
+
+.button i {
+  font-size: 24px;
+}
+
+.button--inactive {
+  background-color: #f2f2f2;
+  color: #23232e;
+}
+
+.checkout-information,
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  gap: 5px;
+}
+
+.input-group label {
+  font-size: 16px;
+  color: #23232e;
+  font-weight: bold;
+}
+
+.input-group input {
+  /* width: 100%; */
+  padding: 5px 15px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+}
+
+.input-group input:focus {
+  outline: 1px solid #343445;
+  background-color: transparent;
+}
+
+.horizontal-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+}
+
+.button--checkout {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
